@@ -1,4 +1,4 @@
-var panels = document.querySelectorAll('panel')
+var panels = document.querySelectorAll('.panel')
 
 panels.forEach(panel) => {
     console.log(panel)
