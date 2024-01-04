@@ -12,6 +12,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: white;
 }
 
 .container {
@@ -24,26 +25,26 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 60vh;
-    border-radius: 30px;
+    border-radius: 50px;
     color: white;
     cursor: pointer;
-    flex: 0.5;
+    flex: 1;
     margin: 12px;
     position: relative;
     transition: flex 0.7s ease-in;
 }
 
 .panel h3{
-    font-size: 28px;
+    font-size: 30px;
     position: absolute;
     bottom: 20px;
     left: 20px;
-    margin: 0;
+    margin: 1;
     opacity: 2;
 }
 
 .panel.active {
-    flex: 5;
+    flex: 7;
 }
 
 .panel.active.h3 {
